@@ -1,0 +1,186 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image: url("pizza.jpg");
+}
+
+header h1 {
+    color: orangered;
+    font-size: 35px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: auto;
+    color: orangered;
+}
+
+section.aamir {
+    background-image: url('pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 110px;
+    color: white;
+
+}
+
+section.aamir h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+section.aamir p {
+    font-size: 24px;
+    color: antiquewhite;
+    margin-bottom: 40px;
+}
+
+a.cta-button {
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+img:hover{
+    background-color: white;
+}
+a.cta-button:hover {
+    background-color: crimson;
+}
+
+a:hover {
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: tomato;
+}
+.deals {
+    background-image: url("pizza.jpg");
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.deals h3 {
+    font-style: italic;
+    color: #ff6347;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.deal-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #cccccc;
+}
+
+.deal-card h4 {
+
+    color: orangered;
+    font-size: 20px;
+    font-family: fangsong;
+    margin: 0;
+    font-style: italic;
+}
+
+.deal-card img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.deal-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+button.add-to-cart-button {
+    background-color: orangered;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add-to-cart-button:hover {
+    background-color: tomato;
+}
+
+section.about-pizza {
+    background-image: url("aboutus.jpeg");
+    padding: 80px;
+    text-align: center;
+    color: #f9f9f9;
+
+}
+
+section.about-pizza h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    left: 0;
+    background-position: bottom;
+}
+
+footer .footer-text {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
